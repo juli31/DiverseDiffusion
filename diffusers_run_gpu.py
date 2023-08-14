@@ -382,7 +382,7 @@ if __name__ == '__main__':
     prompt = args.prompt
     prompt = prompt.replace('_', ' ')
     
-    experiment_name = '/private/home/mzameshina/FACE/stable-diffusion/ee/' + prompt + '_mindistpooling_' + str(min_dist_pooling) + '_batch_' + str(_batch_size) + '/'  
+    experiment_name = '/private/home/m/FACE/stable-diffusion/ee/' + prompt + '_mindistpooling_' + str(min_dist_pooling) + '_batch_' + str(_batch_size) + '/'  
     if not os.path.exists(experiment_name):
         os.mkdir(experiment_name)   
 
